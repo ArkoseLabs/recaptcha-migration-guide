@@ -53,7 +53,7 @@ Update public key from the Arkose dashboard
 
 ## Server Side Integration
 
-You're likely using a reCaptcha library but Arkose does not provide a stand alone library. There is however sample code provided [here](https://github.com/frostjohnAL/StandardSetup/blob/master/validate-token-v3.php).
+You're likely using a reCaptcha library but Arkose does not provide a stand alone library. There is however sample code provided [here](https://arkoselabs.atlassian.net/wiki/spaces/DG/pages/266214758/Server-Side+Instructions#Use-the-Verify-Endpoint).
 
 #### Private Key
 Update `secret key` to the Arkose Labs `private key` located in your [dashboard](https://dashboard.arkoselabs.com/)
