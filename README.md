@@ -29,24 +29,23 @@ Your keys which will be shown in the dashboard.arkoselabs.com for both public an
 ```
 to 
 ```sh
-<script src="//client-api.arkoselabs.com/v2/INSERT_PUBLIC_KEY/api.js" data-callback="setupEnforcement" async defer></script>
-<script>
-   
+<html>
+<head>
+ <script src="//client-api.arkoselabs.com/v2/INSERT_PUBLIC_KEY/api.js" data-callback="setupEnforcement" async defer></script>
+</head>
+<body>
+ <script>   
     function setupEnforcement(myEnforcement) {
-      
-      myEnforcement.setConfig({
-        
+      myEnforcement.setConfig({ 
         selector: '#enforcement-trigger',
-        
-        onCompleted: function(response) {
-          
+         onCompleted: function(response) {
           var token = response.token.toString();
-
         }
       });
     }
-
-  </script>
+ </script>
+</body>
+</html>
 ```
 Update public key from the Arkose dashboard
 
