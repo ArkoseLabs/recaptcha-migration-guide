@@ -38,7 +38,7 @@ to
     function setupEnforcement(myEnforcement) {
       myEnforcement.setConfig({ 
         selector: '#enforcement-trigger',
-         onCompleted: function(response) {
+        onCompleted: function(response) {
           var token = response.token.toString();
         }
       });
